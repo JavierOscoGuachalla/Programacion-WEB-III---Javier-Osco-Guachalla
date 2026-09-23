@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="Estilos.css">
+
+<title>Dulce Maria - Contacto</title>
+
+</head>
+
+<body>
+
+<!-- navbar -->
+
+<div class="container-fluid">
+
+<nav class="navbar navbar-expand-lg">
+
+<div class="container-fluid">
+
+    <a class="navbar-brand TextoNavbar" href="Index.html">
+        DULCE MARIA
+    </a>
+
+    <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarContenido"
+        aria-controls="navbarContenido"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContenido">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+                <a class="nav-link TextoNavbar" href="Index.html">
+                    Inicio
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link TextoNavbar" href="Beneficios.html">
+                    Beneficios
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link TextoNavbar" href="Productos.html">
+                    Productos
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link TextoNavbar" href="Contacto.html">
+                    Contacto
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+</nav>
+
+</div>
+
+<div class="container text-center">
+
+<br>
+
+<p class="Titulo">
+    CONTACTO Y PEDIDOS
+</p>
+
+<p class="Subtitulo1">
+    Ponte en contacto con Dulce Maria
+</p>
+
+<br>
+
+<div class="card">
+
+<div class="card-header Subtitulo2">
+    ¿Quieres realizar un pedido?
+</div>
+
+<div class="card-body">
+
+    <p>
+        Si deseas realizar un pedido o conocer mas
+        sobre nuestros productos, completa el siguiente
+        formulario con tus datos y la informacion de
+        lo que necesitas.
+    </p>
+
+    <p>
+        Puedes consultar sobre pasteles, masitas,
+        productos personalizados y pedidos para
+        diferentes ocasiones.
+    </p>
+
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<div class="card-header Subtitulo2">
+    Informacion de contacto
+</div>
+
+<div class="card-body">
+
+    <p>
+        <strong>Telefono:</strong> 76572764
+    </p>
+
+    <p>
+        <strong>WhatsApp:</strong> 76572764
+    </p>
+
+    <p>
+        <strong>Horario de atencion:</strong>
+        Lunes a Sabado
+    </p>
+
+    <p>
+        <strong>Pedidos:</strong>
+        Con anticipacion segun el producto solicitado
+    </p>
+
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<div class="card-header Subtitulo2">
+    Formulario de pedido o consulta
+</div>
+
+<div class="card-body">
+
+    <form id="formularioContacto">
+
+        <div class="row">
+
+            <div class="col-sm-6">
+
+                <label for="nombres">
+                    Nombres
+                </label>
+
+                <input type="text"
+                    id="nombres"
+                    name="nombres"
+                    class="form-control">
+
+            </div>
+
+
+            <div class="col-sm-6">
+
+                <label for="apellidos">
+                    Apellidos
+                </label>
+
+                <input type="text"
+                    id="apellidos"
+                    name="apellidos"
+                    class="form-control">
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class="col-sm-6">
+
+                <label for="email">
+                    Correo electronico
+                </label>
+
+                <input type="email"
+                    id="email"
+                    name="email"
+                    class="form-control">
+
+            </div>
+
+
+            <div class="col-sm-6">
+
+                <label for="telefono">
+                    Numero de telefono
+                </label>
+
+                <input type="tel"
+                    id="telefono"
+                    name="telefono"
+                    class="form-control">
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="consulta">
+                Tipo de solicitud
+            </label>
+
+            <select id="consulta"
+                name="consulta"
+                class="form-control">
+
+                <option value="">
+                    Seleccione una opcion
+                </option>
+
+                <option value="informacion">
+                    Informacion sobre productos
+                </option>
+
+                <option value="pastel">
+                    Pedido de pastel
+                </option>
+
+                <option value="masitas">
+                    Pedido de masitas
+                </option>
+
+                <option value="personalizado">
+                    Producto personalizado
+                </option>
+
+                <option value="evento">
+                    Pedido para evento
+                </option>
+
+                <option value="otro">
+                    Otro
+                </option>
+
+            </select>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="fecha">
+                Fecha aproximada del pedido
+            </label>
+
+            <input type="date"
+                id="fecha"
+                name="fecha"
+                class="form-control">
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="cantidad">
+                Cantidad aproximada
+            </label>
+
+            <input type="number"
+                id="cantidad"
+                name="cantidad"
+                class="form-control"
+                min="1">
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="comentarios">
+                Detalles del pedido o consulta
+            </label>
+
+            <textarea id="comentarios"
+                name="comentarios"
+                class="form-control"
+                rows="5"
+                placeholder="Escribe aqui los detalles de tu pedido o consulta..."></textarea>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <input type="checkbox"
+                id="terminos"
+                name="terminos">
+
+            <label for="terminos">
+                Acepto el envio del formulario
+            </label>
+
+        </div>
+
+        <br>
+
+        <button type="submit"
+            class="btn">
+
+            Enviar solicitud
+
+        </button>
+
+    </form>
+
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<div class="card-body">
+
+    <p class="Subtitulo2">
+        Gracias por visitar Dulce Maria
+    </p>
+
+    <p>
+        Esperamos poder preparar un producto especial
+        para ti. Puedes consultar nuestros productos
+        y realizar tu pedido mediante el formulario
+        de contacto.
+    </p>
+
+</div>
+
+</div>
+
+<br>
+
+</div>
+
+<!-- footer -->
+
+<footer>
+
+<div class="container-fluid p-4 text-center">
+
+<div class="row">
+
+    <div class="col">
+        <a class="TextoFooter" href="Index.html">
+            INICIO
+        </a>
+    </div>
+
+    <div class="col">
+        <a class="TextoFooter" href="Beneficios.html">
+            BENEFICIOS
+        </a>
+    </div>
+
+    <div class="col">
+        <a class="TextoFooter" href="Productos.html">
+            PRODUCTOS
+        </a>
+    </div>
+
+    <div class="col">
+        <a class="TextoFooter" href="Contacto.html">
+            CONTACTO
+        </a>
+    </div>
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="Scripts.js"></script>
+
+</body>
+
+</html>
